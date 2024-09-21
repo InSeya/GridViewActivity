@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B89EE4"
+    tools:context=".RadioButtonDemoActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="326dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="left"
+        android:layout_marginEnd="39dp"
+        android:background="#BF1E4E"
+        android:fontFamily="arial"
+        android:paddingBottom="10dp"
+        android:text="Radio Button Activity"
+        android:textColor="@color/teal_200"
+        android:textSize="30dp" />
+
+    <RadioGroup
+        android:layout_width="295dp"
+        android:layout_height="389dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="176dp">
+
+        <RadioButton
+            android:id="@+id/radioButton7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saniya"
+            android:textSize="25dp"
+            android:textColor="#DC0C0C" />
+
+        <RadioButton
+            android:id="@+id/radioButton8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aaisha"
+            android:textSize="25dp"
+            android:textColor="#011113" />
+
+        <RadioButton
+            android:id="@+id/radioButton9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Faraz"
+            android:textSize="25dp"
+            android:textColor="#033C05" />
+
+        <RadioButton
+            android:id="@+id/radioButton10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Karan"
+            android:textSize="25dp"
+            android:textColor="#E3FA06" />
+
+        <RadioButton
+            android:id="@+id/radioButton11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fayyaz"
+            android:textSize="25dp"
+            android:textColor="#600470" />
+
+        <RadioButton
+            android:id="@+id/radioButton12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Leah"
+            android:textSize="25dp"
+            android:textColor="#B64B43" />
+
+        <RadioButton
+            android:id="@+id/radioButton13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mahi"
+            android:textSize="25dp"
+            android:textColor="#05515A" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#B81313"
+            android:paddingTop="10dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:text="Submit" />
+    </RadioGroup>
+
+
+</RelativeLayout>
